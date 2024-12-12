@@ -44,10 +44,8 @@ Configuration
 The configuration file config/paymentchecker.php provides the following default options:
 
 return [
-    // Whether the site is down (true/false)
     'active' => env('PAYMENT_CHECKER_ACTIVE', false),
 
-    // Custom message to display
     'message' => env('PAYMENT_CHECKER_MESSAGE', 'Please contact the developer to clear payments.'),
 ];
 ## Usage
