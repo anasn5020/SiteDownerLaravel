@@ -8,5 +8,12 @@
         }
     ],
     "license": "MIT",
-    "require": {}
+    "require": {
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Anasnasr\\SiteDownerLaravel\\": "src/"
+        }
+    }
 }
