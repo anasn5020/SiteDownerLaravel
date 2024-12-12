@@ -17,11 +17,9 @@ GitHub: anasn5020 <br>
 ## Installation
 Step 1: Install via Composer
 Run the following command in your Laravel project directory: <br>
-___ composer require anasnasr/site-downer-laravel ___
+`composer require anasnasr/site-downer-laravel` <br>
 Step 2: Register the Service Provider <br>
-If you're using Laravel 7.x or earlier, manually register the service provider in `config/app.php` by adding this line to the providers array:
-
-## php
+If you're using Laravel 7.x or earlier, manually register the service provider in `config/app.php` by adding this line to the providers array: <br>
 `Anasnasr\SiteDownerLaravel\PaymentCheckerServiceProvider::class,` <br>
 For Laravel 8.x and above, this step is not required as the package uses auto-discovery. <br>
 
