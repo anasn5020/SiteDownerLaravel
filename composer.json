@@ -1,0 +1,16 @@
+{
+    "name": "anasnasr/site-downer-laravel",
+    "description": "Will make site down if its enabled",
+    "authors": [
+        {
+            "name": "Anas Nasr",
+            "email": "anasn5020@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "SiteDownerLaravel\\": "src/"
+        }
+    }
+}
