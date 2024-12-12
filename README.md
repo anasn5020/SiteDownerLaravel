@@ -36,13 +36,14 @@ Add the following variables to your .env file to activate the overlay and custom
 
 ## env
 `PAYMENT_CHECKER_ACTIVE=true`
+ 
 `PAYMENT_CHECKER_MESSAGE="Payment is pending. Please contact the developer."`
 Configuration
 The configuration file config/paymentchecker.php provides the following default options:
-`return [`
-    `'active' => env('PAYMENT_CHECKER_ACTIVE', false),`
-    `'message' => env('PAYMENT_CHECKER_MESSAGE', 'Please contact the developer to clear payments.'),`
-`];`
+```return [
+    'active' => env('PAYMENT_CHECKER_ACTIVE', false),
+    'message' => env('PAYMENT_CHECKER_MESSAGE', 'Please contact the developer to clear payments.'),
+];```
 ## Usage
 When PAYMENT_CHECKER_ACTIVE is set to true, the "site down" overlay will appear across all pages.
 The overlay message can be customized via the PAYMENT_CHECKER_MESSAGE environment variable.
