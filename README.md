@@ -17,7 +17,7 @@ GitHub: anasn5020 <br>
 ## Installation
 Step 1: Install via Composer
 Run the following command in your Laravel project directory: <br>
-___ composer require anasnasr/site-downer-laravel ___ <br>
+___ composer require anasnasr/site-downer-laravel ___
 Step 2: Register the Service Provider <br>
 If you're using Laravel 7.x or earlier, manually register the service provider in `config/app.php` by adding this line to the providers array:
 
