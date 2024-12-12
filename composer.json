@@ -1,16 +1,12 @@
 {
     "name": "anasnasr/site-downer-laravel",
-    "description": "Will make site down if its enabled",
+    "description": "A Laravel package to display a customizable site down overlay.",
     "authors": [
         {
             "name": "Anas Nasr",
             "email": "anasn5020@gmail.com"
         }
     ],
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "SiteDownerLaravel\\": "src/"
-        }
-    }
+    "license": "MIT",
+    "require": {}
 }
