@@ -16,29 +16,28 @@ GitHub: anasn5020 <br>
 
 ## Installation
 Step 1: Install via Composer
-Run the following command in your Laravel project directory:
-`composer require anasnasr/site-downer-laravel` <br>
+Run the following command in your Laravel project directory: <br>
+___ composer require anasnasr/site-downer-laravel <br>
 Step 2: Register the Service Provider <br>
-If you're using Laravel 7.x or earlier, manually register the service provider in config/app.php by adding this line to the providers array:
+If you're using Laravel 7.x or earlier, manually register the service provider in `config/app.php` by adding this line to the providers array:
 
 ## php
 `Anasnasr\SiteDownerLaravel\PaymentCheckerServiceProvider::class,` <br>
-For Laravel 8.x and above, this step is not required as the package uses auto-discovery.
+For Laravel 8.x and above, this step is not required as the package uses auto-discovery. <br>
 
-Step 3: Publish Configuration and Views
-Publish the configuration file and views using the following commands:
+Step 3: Publish Configuration and Views <br>
+Publish the configuration file and views using the following commands: <br>
 
 `php artisan vendor:publish --tag=config` <br>
 `php artisan vendor:publish --tag=views` <br>
 
-Step 4: Configure the Environment
-Add the following variables to your .env file to activate the overlay and customize the message:
+Step 4: Configure the Environment <br>
+Add the following variables to your .env file to activate the overlay and customize the message: <br>
 
 ## env
 `PAYMENT_CHECKER_ACTIVE=true` <br>
- 
 `PAYMENT_CHECKER_MESSAGE="Payment is pending. Please contact the developer."` <br>
-Configuration
+Configuration <br>
 The configuration file config/paymentchecker.php provides the following default options: <br>
 ```return [```
     ```'active' => env('PAYMENT_CHECKER_ACTIVE', false),```
